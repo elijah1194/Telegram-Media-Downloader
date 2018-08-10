@@ -1,0 +1,60 @@
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+     <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/angular-1.5.8.min.js"></script> 
+    
+    <script type="text/javascript" src="js/moment-with-locales.min.js"></script>
+    <script type="text/javascript" src="js/datepicker.min.js"></script>
+     
+    <script type="text/javascript" src="js/popup.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="css/custom.css" media="all"> 
+    <link rel="stylesheet" type="text/css" href="css/milligram.css" media="all">  
+    <link rel="stylesheet" type="text/css" href="css/datepicker.css" media="all">  
+    
+</head>
+    <body id="body" style="width:280px;height:350px;">  
+        
+        <div class="container" style="height: 100%;" >
+            <div style="height:90%;">
+                <label style="display:inline-block;">Choose a Date Range</label>   
+                <label style="display:inline-block;font-size: 1.2rem;">(to get ALL the media in a chat</label>  
+                <label style="display:inline-block;font-size: 1.2rem;">simply click Download)</label>  
+                <div id="date-picker" type="text" class="datepicker-here" data-range="true" />           
+
+            </div>
+
+            <div class="row" style="height:auto;">
+                 <label class="__lbl_checkbox">
+                    <input id="pics" data-toggle="checkbox" type="checkbox" value="pics" class="__checkbox"/>
+                    Photos
+                </label>
+                <label class="__lbl_checkbox">
+                    <input id="videos" data-toggle="checkbox" type="checkbox" value="videos" class="__checkbox"/>
+                    Videos
+                </label>
+                <label class="__lbl_checkbox">
+                    <input id="files" data-toggle="checkbox" type="checkbox" value="files" class="__checkbox"/>
+                    Files
+                </label>
+                <label class="__lbl_checkbox">
+                    <input id="voice" data-toggle="checkbox" type="checkbox" value="voice" class="__checkbox"/>
+                    Voice messages
+                </label>
+                <label class="__lbl_checkbox">
+                    <input id="sticker" data-toggle="checkbox" type="checkbox" value="sticker" class="__checkbox"/>
+                    Stickers
+                </label>
+            </div>  
+        
+        <div class="row" style="height:auto;">
+             <label class="button" id="download" style="cursor:pointer;">Download</label>
+        </div>  
+        
+       
+    </div>
+        
+          
+    </body>
+</html>
